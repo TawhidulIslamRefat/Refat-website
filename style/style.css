@@ -8,7 +8,13 @@
     "wdth" 100;
 }
 
+/* header */
 
+.header{
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+}
 
 
 
@@ -25,7 +31,9 @@
 .dark-2{
   color: #474747;
 }
-
+.bg-secandary{
+  background-color: #FFF8F3;
+}
 /* nav style */
 nav{
   display: flex;
@@ -62,4 +70,37 @@ nav ul{
   font-size: 20px;
 
 }
+/* banner style */
+  
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 0px 200px;
+}
 
+.banner-profile-pic{
+  width: 650px;
+  height: 676px;
+}
+
+.banner-subtitle{
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-title{
+  font-size: 45px;
+  font-weight: 600;
+}
+.btn-secandary{
+  margin-right: 20px;
+}
+.btn-3{
+  background-color: azure;
+  color: #FD6E0A;
+  border: 2px solid #FD6E0A;
+  
+}
+.margin{
+margin: 5px;
+}
